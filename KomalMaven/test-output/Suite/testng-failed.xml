@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Base.Createaccount">
+        <methods>
+          <include name="close"/>
+          <include name="TakesScreenshot"/>
+          <include name="forgot"/>
+          <include name="launchurl"/>
+          <include name="Createaccount"/>
+          <include name="forgot2"/>
+          <include name="CloseFb"/>
+        </methods>
+      </class> <!-- Base.Createaccount -->
+      <class name="Base.Signin">
+        <methods>
+          <include name="Signin"/>
+          <include name="CloseFb"/>
+          <include name="forgot"/>
+          <include name="close"/>
+          <include name="forgot2"/>
+          <include name="TakesScreenshot"/>
+          <include name="launchurl"/>
+        </methods>
+      </class> <!-- Base.Signin -->
+      <class name="Base.Assertion">
+        <methods>
+          <include name="forgotPassword"/>
+          <include name="forgot2"/>
+          <include name="CloseFb"/>
+          <include name="TakesScreenshot"/>
+          <include name="launchurl"/>
+          <include name="forgot"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Base.Assertion -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
